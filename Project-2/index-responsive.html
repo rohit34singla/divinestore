@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital@1&family=Oswald:wght@300;400&family=PT+Sans:ital,wght@1,700&family=Playpen+Sans:wght@300;400&family=Ubuntu:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="log">
+            <img src="img/ganesh-logo.jpg" alt="Please visit divinestore606 at instagram">
+        </div>
+
+        <ul>
+            <!-- li.item{<a></a>}*5 -->
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+            <li class="item"><a href="#services">Inventory</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Divine-store</h1>
+        <p>ॐ भूर्भुवः स्व </p>
+        <p>तत्सवितुर्वरेण्यं</p>
+        <p>भर्गो देवस्य धीमहि</p>
+        <p>धियो यो नः प्रचोदयात ॥</p>
+        <p>
+            गायत्री मंत्र का जाप दिन मे तीन बार करे।
+            गायत्री मंत्र सुबह, दोपहर और शाम को सूर्यास्त होने के कुछ देर पहले पढना उचित समझा जाता है।
+        </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h2 class="h-primary center">Welcome to Divine Store Collections</h2>
+        <div id="services">
+            <div class="box">
+                <img src="img/rangoli.jpg" alt="">
+
+                <p2>Images for Decoration on Festivals</p2>
+
+                <h2>
+                    <select id="mySelect">
+                        <option value="option1">Rangoli</option>
+                        <option value="option2">Diyas </option>
+                        <option value="option3">Latakan and Toran</option>
+                    </select>
+                </h2>
+
+
+
+            </div>
+            <div class="box">
+                <img src="img/diyas.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/rangoli.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-client">Our Clients</h1>
+        <div id="clients">
+            <img src="img/ganesh-logo.jpg" alt="Our client">
+            <img src="img/ganesh-logo.jpg" alt="Our client">
+            <img src="img/ganesh-logo.jpg" alt="Our client">
+            <img src="img/ganesh-logo.jpg" alt="Our client">
+        </div>
+
+        <section id="contact">
+            <h1 class="h-primary-center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                Copyright &copy; www.divinestore.com. All rights reserved!
+            </div>
+        </footer>
+</body>
+
+</html>
