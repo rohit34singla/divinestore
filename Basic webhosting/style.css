@@ -63,6 +63,8 @@ nav {
     color: yellow;
     font-size: 34px;
     font-weight: bold;
+    display: inline-block;
+    background: black;
 }
 
 .container p{
@@ -77,6 +79,8 @@ h3{
     font-size: 24px;
     font-weight: bold;
     padding: 10px 0px;
+    display: inline-block;
+    background: black;
 }
 
 .box li{
