@@ -1,0 +1,18 @@
+{
+  "name": "rohit-dance",
+  "version": "1.0.0",
+  "description": "dance website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {}
+}
